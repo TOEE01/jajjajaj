@@ -86,9 +86,9 @@ public class Persona {
     }
 
        String EsMAyorDeEdad() {
-       int Edad = this.Edad;
-       if(Edad < 18){
-       return "Es Menir de Edad";
+       int edad = this.Edad;
+       if(edad < 18){
+       return "Es Menor de Edad";
        }
        else {
            return "Es Mayor de Edad";
@@ -100,6 +100,15 @@ public class Persona {
     public String DastosPersonales() {
         return "Persona{" + "Nombre=" + Nombre + ", Sexo=" + Sexo + ", Direccion=" + Direccion + ", Edad=" + Edad + ", Peso=" + Peso + ", Altura=" + Altura + '}';
     
+        
   
 }
+
+    
+    public String SinPesoYAltura() {
+        return "Persona{" + "Nombre=" + Nombre + ", Sexo=" + Sexo + ", Edad=" + Edad + '}';
+    }
+
+
 }
+

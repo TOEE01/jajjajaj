@@ -58,8 +58,16 @@ public class ClaseMain {
 
         Persona ps1 = new Persona(Nombre, Sexo, Direccion, Edad, Peso, Altura);
 
-        Persona ps2 = new Persona (ps1.getNombre(), ps1.getEdad(), ps1.getSexo());
+        Persona ps2 = new Persona (ps1.getNombre(), ps1.getSexo(), ps1.getEdad());
         
+        System.out.println(ps.DastosPersonales());
+        System.out.println(ps.EsMAyorDeEdad());
+        
+        System.out.println(ps1.DastosPersonales());
+        System.out.println(ps1.EsMAyorDeEdad());
+        
+        System.out.println(ps2.SinPesoYAltura());
+        System.out.println(ps2.EsMAyorDeEdad());
 
     }
 
